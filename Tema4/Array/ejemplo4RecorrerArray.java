@@ -30,7 +30,5 @@ public class ejemplo4RecorrerArray {
         a = new int[]{7, -2, 5, 0, 6};
         System.out.println(a[0] + a[1] + a[2] + a[3] + a[4] );
     }*/
-    //comentario
-    //para
-    //github
+
 }
