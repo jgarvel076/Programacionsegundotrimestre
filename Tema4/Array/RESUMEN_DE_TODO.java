@@ -117,7 +117,7 @@ public class valueOfparse{
         System.out.println(b);
         Long.parseLong("254645148");
         Double.parseDouble("2.2");
-        float. parseFloat("");
+        float parseFloat("");
     }
 
 }
