@@ -16,7 +16,6 @@ public class persona implements Comparable {
         return apellidos;
     }
 
-    //Setters
     public void setnombre(String nombre) {
         this.nombre = nombre;
     }
