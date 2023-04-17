@@ -1,15 +1,15 @@
-import java.util.Stack;
+package src;import java.util.Stack;
 
 public class main {
     public static void main(String[] args) {
         cola colaPersonas = new cola();
 
-        persona ana = new persona("Julia");
-        persona berto = new persona("Juan");
-        persona cristina = new persona("Paca");
-        persona daniel = new persona("Alonso");
-        persona zoe = new persona("Nano");
-        persona luis = new persona("Josefa");
+        persona Julia = new persona("Julia");
+        persona Juan = new persona("Juan");
+        persona Paca = new persona("Paca");
+        persona Alonso = new persona("Alonso");
+        persona Nano = new persona("Nano");
+        persona Josefa = new persona("Josefa");
 
         System.out.print("Quitamos a Julia ");
         colaPersonas.descolar();
@@ -40,12 +40,12 @@ public class main {
 
 
         System.out.print("Añadimos personas a la pila: ");
-        pilaPersonas.apilar(ana);
-        pilaPersonas.apilar(berto);
-        pilaPersonas.apilar(cristina);
-        pilaPersonas.apilar(daniel);
-        pilaPersonas.apilar(zoe);
-        pilaPersonas.apilar(luis);
+        pilaPersonas.apilar(Julia);
+        pilaPersonas.apilar(Juan);
+        pilaPersonas.apilar(Paca);
+        pilaPersonas.apilar(Alonso);
+        pilaPersonas.apilar(Nano);
+        pilaPersonas.apilar(Josefa);
         System.out.println(pilaPersonas);
 
         System.out.print("Quitamos el ultimo elemento ");

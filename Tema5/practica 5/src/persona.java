@@ -1,4 +1,4 @@
-public class persona implements Comparable {
+package src;public class persona implements Comparable {
     private String nombre;
     private int edad;
     private String apellidos;

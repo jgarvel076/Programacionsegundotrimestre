@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+package src;import java.util.LinkedList;
 import java.util.List;
 
 public class cola {
