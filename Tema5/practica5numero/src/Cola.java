@@ -32,8 +32,4 @@ public class Cola {
         System.out.println(cola.size());
     }
 
-    @Override
-    public String toString() {
-        return cola.toString();
-    }
 }
