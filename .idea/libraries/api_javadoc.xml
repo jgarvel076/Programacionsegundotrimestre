@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="api-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/doc/api-javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/src/jdo_2.2" />
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/src/jpa_2.0" />
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/tutorials/guestbook-jee/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/tutorials/guestbook-spring/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/tutorials/guestbook-web/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/objectdb-2.8.8/tutorials/points-console/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

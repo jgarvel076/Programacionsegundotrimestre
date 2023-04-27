@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Lista>
+    <Contacto>Pablo
+        <direccion>Juan Ramon Jimenez</direccion>
+        <numero>627884659</numero>
+    </Contacto>
+    <Contacto>Juan
+        <direccion>Pablo Torres</direccion>
+        <numero>602247931</numero>
+    </Contacto>
+    <Contacto>Manuel
+        <direccion>Fernando Torres</direccion>
+        <numero>697184252</numero>
+    </Contacto>
+</Lista>
