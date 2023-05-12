@@ -1,0 +1,8 @@
+El algoritmo del ejercicio 2 resuelve el prblema de las torres de Hanoi.
+La funcion principal "resolverTorres" coge cuatro parametros: discos, torre inicio, torre fin y torre medio.
+Usamos un else para usar la recursividad y asi poder moviendo los discos hasta que estos ocupen sus posiciones finales
+en los discos.
+
+En este caso, la complejidad se puede expresar como O(2^n), donde n es el número de discos. La complejidad 0(2^n) cada
+llamada recursiva(else) se realizan dos llamadas recursivas adicionales, excepto en el caso base. Esto crea un árbol de
+recursión con una altura de n y cada nivel tiene el doble de nodos que el nivel anterior.
