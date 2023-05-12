@@ -23,14 +23,14 @@ public class ejercicio11 {
         // Hacemos que cuelgue del documento (estructura de árbol)
         document.appendChild(Lista);
 
-        // Creamos el primer nodo y lo colgamos de su padre, el nodo raíz. --> <estudiante></estudiante>
+        // Creamos el primer nodo y lo colgamos de su padre, el nodo raíz
         Element contacto = document.createElement("Contacto");
         Lista.appendChild(contacto);
 
 
         // Creamos un nodo de texto que será el valor del elemento anterior
         Text Pablo = document.createTextNode("Pablo");
-        // y lo colgamos del nodo anterior --> <estudiante>Fran</estudiante>
+        // y lo colgamos del nodo anterior
         contacto.appendChild(Pablo);
 
         Element direccion = document.createElement("direccion");
@@ -50,7 +50,7 @@ public class ejercicio11 {
 
         // Creamos un nodo de texto que será el valor del elemento anterior
         Text Juan = document.createTextNode("Juan");
-        // y lo colgamos del nodo anterior --> <estudiante>Fran</estudiante>
+        // y lo colgamos del nodo anterior
         contacto1.appendChild(Juan);
 
         Element direccion1 = document.createElement("direccion");
@@ -70,7 +70,7 @@ public class ejercicio11 {
 
         // Creamos un nodo de texto que será el valor del elemento anterior
         Text Manuel = document.createTextNode("Manuel");
-        // y lo colgamos del nodo anterior --> <estudiante>Fran</estudiante>
+        // y lo colgamos del nodo anterior
         contacto2.appendChild(Manuel);
 
         Element direccion2 = document.createElement("direccion");
